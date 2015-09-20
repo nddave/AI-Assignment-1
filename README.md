@@ -11,4 +11,4 @@ This program is written as a part of the Artificial Intelligence Assignment.
 - Assignment : Write a code that does anything
 - Language : Clojure
 
-Check the core.clj file for the code and explaination.
+Check the [patinc-code.clj](https://github.com/nddave/Patinc/blob/master/patinc-code.clj) file for the code and explaination.
