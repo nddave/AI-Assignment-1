@@ -5,11 +5,10 @@ Patinc.
 
 This program is written as a part of the Artificial Intelligence Assignment.
 
-Subject : Artificial Intelligence
-Assignment : Write a code that does anything
-Language : Clojure
-
-Program Name : Patinc
-Program Description : A program that identifies pattern between three numbers and generates formulas for the pattern so that                          anyone can easily predict the pattern using the formula.
+- Program Name : Patinc
+- Program Description : A program that identifies pattern between three numbers and generates formulas for the pattern so that                          anyone can easily predict the pattern using the formula.
+- Subject : Artificial Intelligence
+- Assignment : Write a code that does anything
+- Language : Clojure
 
 Check the core.clj file for the code and explaination.
