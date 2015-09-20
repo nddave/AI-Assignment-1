@@ -78,6 +78,6 @@
 	;; The code splits the numbers into variables.
 	(def first-number a)
 	(def r-value (/ b a))
-	;; Prints out the formula usint the variables defined.
+	;; Prints out the formula using the variables defined.
 	(println (str "nth term = (" first-number "(1-" r-value "^n)) / (1-" r-value ")" ))
 	)
