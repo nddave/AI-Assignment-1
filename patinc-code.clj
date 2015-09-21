@@ -35,7 +35,7 @@
 	;; An if condition identifies if the difference between numbers is the same or not.
 	(if (= (- b a) (- c b)) 
 		;; If the condition is satisfied the following text is printed.
-		"AP; conduct 'aform' for formula" 
+		"\nAP; conduct 'aform' for formula\n" 
 		;; Else, the following text is printed.
 		"not an AP"))
 
@@ -44,7 +44,7 @@
 	;; This uses the same code language for the 'aptest' module.
 	;; An if condition identifies if the division between numbers has the same result or not.
 	(if (= (/ b a) (/ c b)) 
-		"GP; conduct 'gform' for formula" 
+		"\nGP; conduct 'gform' for formula\n" 
 		"not an GP"))
 
 ;; In most cases the user does not know what they are looking for in a pattern.
@@ -70,7 +70,7 @@
 	(def first-number a)
 	(def difference-value (- b a))
 	;; Prints out the formula using the variables defined. 
-	(println (str "nth term = " first-number " + ((n-1)*" difference-value ")"))
+	(println (str "\nnth term = " first-number " + ((n-1)*" difference-value ")\n"))
 	)
 
 ;; Defining formula for Geometric progression, for the three values.
@@ -79,5 +79,5 @@
 	(def first-number a)
 	(def r-value (/ b a))
 	;; Prints out the formula using the variables defined.
-	(println (str "nth term = (" first-number "(1-" r-value "^n)) / (1-" r-value ")" ))
+	(println (str "\nnth term = (" first-number "(1-" r-value "^n)) / (1-" r-value ")\n" ))
 	)
