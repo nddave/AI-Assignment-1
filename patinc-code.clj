@@ -27,14 +27,14 @@
 ;; PATTERN IDENTIFICATION
 ;; ====
 
-;; This part of the program goes on to define to distinct pattern recognition tests.
+;; This part of the program goes on to define two distinct pattern recognition tests.
 ;; One is for Arithmetic Progression, another is for Geometric Progression.
 
 ;; Defining test for Arithmetic progression, for three values.
 (defn aptest [a b c]
-	;; An if condition identifies if the difference between numbers is the same or not.
+	;; An 'if' condition identifies if the difference between numbers is the same or not.
 	(if (= (- b a) (- c b)) 
-		;; If the condition is satisfied the following text is printed.
+		;; If the condition is satisfied, the following text is printed.
 		"\nAP; conduct 'aform' for formula\n" 
 		;; Else, the following text is printed.
 		"not an AP"))
@@ -42,13 +42,13 @@
 ;; Defining test for Geometric progression, for three values.
 (defn gptest [a b c]
 	;; This uses the same code language for the 'aptest' module.
-	;; An if condition identifies if the division between numbers has the same result or not.
+	;; An 'if' condition identifies if the division between numbers has the same result or not.
 	(if (= (/ b a) (/ c b)) 
 		"\nGP; conduct 'gform' for formula\n" 
 		"not an GP"))
 
 ;; In most cases the user does not know what they are looking for in a pattern.
-;; So therefore the following code runs both the aptest and the gptest, on the values given to find out
+;; So therefore the following code runs both, the 'aptest' and the 'gptest', on the values given to find out
 ;; what the pattern is.
 
 ;; Defining test for an unknown pattern, 'patrec' stands for pattern recognition.
